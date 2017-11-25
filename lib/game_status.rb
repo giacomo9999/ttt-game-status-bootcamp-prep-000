@@ -13,3 +13,8 @@ def won?(board)
   end #of do loop
   return false
 end #of method definition
+
+def full?(board)
+  return false if board.include?(" ")
+  return true
+end
