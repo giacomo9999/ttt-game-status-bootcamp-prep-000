@@ -29,3 +29,8 @@ def over?(board)
   return true if won?(board)
   return false
 end
+
+def winner(board)
+  return won(board) [0] if won?(board) != false
+  return nil
+end
