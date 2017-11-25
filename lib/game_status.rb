@@ -9,6 +9,6 @@ def won?(board)
   WIN_COMBINATIONS.each do |z|
     if z[0]==z[1] && z[1]==z[2]
       return z
-    end
-  end
-end
+    end #of if statement
+  end #of do loop
+end #of method definition
