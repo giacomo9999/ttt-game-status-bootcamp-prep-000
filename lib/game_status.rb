@@ -18,3 +18,8 @@ def full?(board)
   return false if board.include?(" ")
   return true
 end
+
+def draw?(board)
+  return true if won?(board) && full?(board)
+  return false
+end
