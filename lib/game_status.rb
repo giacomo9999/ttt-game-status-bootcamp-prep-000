@@ -11,4 +11,5 @@ def won?(board)
       return z
     end #of if statement
   end #of do loop
+  return false
 end #of method definition
