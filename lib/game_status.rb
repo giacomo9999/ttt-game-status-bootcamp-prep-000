@@ -32,6 +32,6 @@ end
 
 def winner(board)
   puts won?(board)
-  return won?(board) [0] if won?(board) != false
+  return board [won?(board) [0]] if won?(board) != false
   return nil
 end
